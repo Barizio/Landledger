@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Land - Landledger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Landledger</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register Land</a></li>
+                <li><a href="search.html">Search Land</a></li>
+                <li><a href="history.html">Transaction History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fade-in">
+            <h2>Register New Land</h2>
+            <p>
+                Use this form to register your land parcel on the Landledger platform. Once registered, your land will be securely stored on the blockchain, ensuring transparency and immutability.
+            </p>
+            <form id="register-form">
+                <label for="owner-name">Owner Name:</label>
+                <input type="text" id="owner-name" name="owner-name" required>
+
+                <label for="parcel-id">Parcel ID:</label>
+                <input type="text" id="parcel-id" name="parcel-id" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Landledger</p>
+        <p>DISCLAIMER:this is not the full website only a demo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

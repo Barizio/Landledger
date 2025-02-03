@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Land - Landledger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Landledger</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register Land</a></li>
+                <li><a href="search.html">Search Land</a></li>
+                <li><a href="history.html">Transaction History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fade-in">
+            <h2>Search Land Records</h2>
+            <p>
+                Enter the Parcel ID to view detailed information about the land parcel, including ownership history and current status.
+            </p>
+            <form id="search-form">
+                <label for="search-parcel-id">Enter Parcel ID:</label>
+                <input type="text" id="search-parcel-id" name="search-parcel-id" required>
+                <button type="submit" class="btn">Search</button>
+            </form>
+
+            <div id="search-results" class="fade-in"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Landledger</p>
+        <p>DISCLAIMER:this is not the full website only a demo.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
